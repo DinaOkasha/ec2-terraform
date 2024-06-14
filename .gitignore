@@ -1,0 +1,13 @@
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+*.tfvars
+
+#ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+#ignore OSX system file, with the folder metadata
+.DS_Store
